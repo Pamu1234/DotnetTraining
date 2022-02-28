@@ -1,0 +1,22 @@
+body {
+    background-color: #BCB0E6;
+
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 100%;
+    color: green;
+}
+p {
+
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input{
+    font-size: 100%;
+    color:rgba(0, 0, 0, 0.92)
+}
+button{
+    font-size: 75%
+    
+}

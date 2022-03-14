@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    padding: 10px;
+    background: linear-gradient(130deg, #71b7e6, #9b59b6);
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background:#fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+.container .title{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input_box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input_box .user-details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input_box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    padding-left: 9px;
+    font-size: 15px;
+    border-bottom-width: 5px;
+    transition: all 0.3s ease;
+}
+form .gender-details .gender-title{
+    font-size: 20px;
+    width: 10px;
+}
+/* form .marital-status .marital-status{
+    font-size: 20px;
+} */
